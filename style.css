@@ -1,0 +1,77 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,footer{
+    position: sticky;
+    background-color: #1e293b;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header{
+    top: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 100%;
+    
+    min-height: 100vh;
+    background-color: burlywood;
+
+}
+
+button{
+    background-color: azure;
+    color: blue;
+    
+
+}
+
+input{
+    width: 100%;
+}
+
+main{
+   
+    padding: 1rem;
+    flex-grow: 1;
+}
+footer{
+    bottom: 0;
+}
+
+.mainDiv{
+    display: flex;
+    justify-content:space-around;
+    
+    
+    gap: 1em;
+}
+.RandomDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    
+    
+
+}
+
+
+
+
+
